@@ -6,11 +6,11 @@ export default class extends BaseSeeder {
     // Write your database queries inside the run method
 
     return await Tipo.createMany([
-      {nome: 'Bebidas'},
-      {nome: 'hamburguers'},
-      {nome: 'Sobremesas'},
-      {nome: 'hot-dog'},
-      {nome: 'porções'},
+      {id: 1,nome: 'Bebidas'},
+      {id: 2, nome: 'hamburguers'},
+      {id: 3, nome: 'Sobremesas'},
+      {id: 4, nome: 'hot-dog'},
+      {id: 5, nome: 'porções'},
     ])
   }
 }
