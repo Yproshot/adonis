@@ -18,10 +18,10 @@ export default class Comanda extends BaseModel {
   declare formaPagamentoId: number
 
   @column()
-  declare dataPagamento: DateTime
+  declare dataPagamento: Number
 
   @column()
-  declare data: DateTime
+  declare data: Number
 
   @column.dateTime({ autoCreate: true })
   declare createdAt: DateTime
